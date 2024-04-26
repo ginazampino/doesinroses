@@ -1,5 +1,5 @@
 import styles from './page.module.css';
-import { client } from '../../src/utils/client';
+import { client } from '../utils/sanity/client';
 
 type Post = {
     _id: string;
